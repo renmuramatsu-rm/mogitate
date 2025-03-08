@@ -18,17 +18,21 @@ class SeasonsTableSeeder extends Seeder
             'name' => '春',
                         
         ];
+        DB::table('seasons')->insert($param);
         $param = [
             'name' => '夏',
 
         ];
+        DB::table('seasons')->insert($param);
         $param = [
             'name' => '秋',
 
         ];
+        DB::table('seasons')->insert($param);
         $param = [
             'name' => '冬',
 
         ];
+        DB::table('seasons')->insert($param);
     }
 }
