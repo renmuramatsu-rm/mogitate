@@ -7,3 +7,7 @@ composer install
 php artisan migrate 
 ④シーディング 
 php artisan db:seed
+
+ER図
+![image](https://github.com/user-attachments/assets/d4158ee4-3fca-4d30-ba7a-e85560afad3b)
+
