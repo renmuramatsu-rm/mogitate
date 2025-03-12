@@ -6,6 +6,4 @@ composer install
 ③マイグレーション（テーブル作成）　
 php artisan migrate 
 ④シーディング 
-php artisan make:seeder CategoriesTableSeeder 
-php artisan make:seeder ContactsTableSeeder 
 php artisan db:seed
